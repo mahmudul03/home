@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+.logo-item{
+    margin:40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    
+}
+.logo-item .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-shadow: 3px 3px 20px #ff99cc;
+    flex: 50%;
+
+}
+.logo-item ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+    text-shadow: 3px 3px 20px #fa0780;
+    gap: 10px;
+}
+.header-section{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.header-left{
+    width: 40%;
+    margin: 100px 0;
+    flex-basis: 50%;
+}
+.header-left h2{
+    text-shadow: 1px 1px 1px #000;
+    font-size: 20px;
+    width: 50%;
+     
+}
+.header-left p{
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
+    
+    font-size: 15px;
+    line-height: 1.5;
+    width: 50%;
+    margin: 10px 0;
+    
+}
+.header-left input{
+    padding: 15px 30px;
+}
+.header-left button{
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-left: 2px;
+    background-color: rgb(248, 127, 79);
+}
+.img-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 0;
+    width: 60%;
+    align-items: center;
+    grid-gap: 10px;
+    
+    
+    
+}
+.header-section .header-right{
+    width: 50px;
+   flex-basis: 50%;
+   margin-left:100px ;
+}
+/* end of header */
+
+
+.features{
+    margin: auto;
+    text-align: center;
+    
+}
+.features h2{
+    font-size: 30px;
+    text-shadow: 3px 3px 20px #ff99cc;
+}
+.features p{
+    color: #000;
+
+    text-shadow: 0 2px 3px #747474;
+    margin: auto;
+    font-size: 20px;
+    width: 500px;
+}
+.hero-item{
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    display: flex;
+    
+}
+.hero-item .item{
+    display: flex;
+   margin: 20px 0;
+   width: 50%;
+   margin-left: 50px;
+}
+.hero-item .item img{
+    width: 35px;
+    
+}
+.hero-item .item .content h2{
+    font-size: 20px;
+    padding-left: 10px;
+    color: #850000;
+
+    text-shadow: 0 2px 2px #dd8a8a;
+}
+.hero-item .item .content p{
+    color: #000;
+
+    text-shadow: 0 2px 3px #747474;
+    text-align: left;
+    justify-content: center;
+    width: 250px;
+    padding-left: 10px;
+}
+/* end of hero */
+
+
+
+.hero-2{
+    display: flex;
+    width: 80%;
+    margin:50px auto;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.hero-2-left{
+    margin: auto;
+    flex-basis: 50%;
+}
+.hero-2-right{
+    width: 600px;
+}
+.hero-2-right h2{
+    font-size: 30px;
+    margin-top:100px ;
+    width: 300px;
+    text-shadow: 3px 3px 20px #ff99cc;
+}
+.hero-2-right p{
+    text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
+    width: 400px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+.hero-2-right ul{
+    list-style: none;
+       
+}
+.hero-2-right ul li i{
+    color: green;
+}
+.hero-2-right button{
+    margin: 20px 0;
+    border: none;
+    color:rgb(48, 48, 223) ;
+}
+/* end of hero-2 */
+
+.hero-3{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    gap: 30px;
+    justify-content: center;
+}
+.hero-3-left{
+    margin: 90px;
+}
+.hero-3-left h2{
+    text-shadow: 3px 3px 20px #ff99cc;
+    font-size: 30px;
+    margin-top:100px ;
+    width: 400px;
+}
+.hero-3-left p{
+    text-shadow: 3px 3px red;  
+    width: 200px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+ 
+    
+.hero-3-left button{
+    margin: 20px 0;
+    border: none;
+    color:rgb(48, 48, 223) ;
+}
+ 
+.hero-3-right{
+    margin: 50px;
+    flex-basis: 50%;
+}
+/* end of hero-3 */
+
+.hero-4{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.hero-4 h2{
+    padding: 10px 100px;
+    text-shadow: 3px 3px 20px #ff99cc;
+}
+.hero-4 p{
+    padding: 10px 100px;
+    line-height: 1.5;
+    
+}
+.hero-4 img{
+    padding: 100px 0;
+    text-shadow: 3px 3px 20px #ff99cc;
+}
+.hero-5{
+    width: 80%;
+    margin: auto;
+}
+.hero-5 .work{
+    text-align: center;
+}
+.hero-5 .work h2{
+    font-size: 15px;
+    text-shadow: 3px 3px 20px #ff99cc;
+}
+.hero-5 .work p{
+    padding: 10px 100px;
+    line-height: 1.5;
+}
+.hero-5 .connect{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 10px 0;
+    
+}
+.hero-5 .connect .text  {
+    display: flex;
+}
+.hero-5 .connect .text .text-1{
+    margin-left: 15px;
+}
+.hero-5 .connect .text .text-1 h3{
+    font-size: 30px;
+    font-weight: 80;
+
+}
+.hero-5 .connect .text .text-1 p{
+    width: 200px;
+    line-height: 1.5;
+    font-weight: 30;
+}
+/* end of hero-5 */
+
+.meet{
+    width: 80%;
+    margin: auto;
+}
+.meet-h{
+    width: 80%;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.meet-h h2{
+    padding: 10px 100px;
+    margin-left: 220px ;
+    width: 400px;
+    text-shadow: 3px 3px 20px #ff99cc;
+    font-size: 18px;
+    font-weight: 100;
+}
+.meet-h p{
+    font-size: 15px;
+    font-weight: 150;
+    line-height: 2.5;
+    padding-left: 20px 0;
+    margin-left: 20px ;
+}
+.meet img{
+    margin-left: 240px;
+}
+/* end of meet */
+
+.do-you{
+    background-color:#183656;
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-basis: 50%;
+    border-radius: 15px;
+    
+}
+.do-you h2{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 3px 3px 20px #ff99cc;
+    font-weight: 200;
+    width: 400px;
+}
+.do-you button{
+    margin-top: 40px ;
+    margin-left: 100px;
+    padding: 10px 25px;
+}
+/* end of do-you */
+
+.footer-section{
+    width: 80%;
+    margin: 40px 0;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.footer-section div{
+    padding: 20px 0;
+    margin-left: 50px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 30%;
+}
+.logo-s h2{
+    text-shadow: 3px 3px 20px #ff99cc;
+    font-weight: 100;
+    font-size: 20px;
+}
+.logo-s h4{
+    text-shadow: 3px 3px 20px #ff99cc;
+    margin-left: 50px;
+    line-height: 2;
+    font-weight: 100;
+    font-size: 17px;
+}
+.footer-section h3{
+    text-shadow: 3px 3px 20px #ff99cc;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 20px;
+}
+.footer-section h4{
+    text-shadow: 3px 3px 20px #ff99cc;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 2.5;
+    padding-left: 25px 0;
+    margin-left: 20px ;
+    
+}
+/* end of footer */
